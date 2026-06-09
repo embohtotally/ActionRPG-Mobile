@@ -1,137 +1,137 @@
 # Action RPG Mobile Game
 
-## 📱 모바일 액션 RPG 게임
+## 📱 Mobile Action RPG Game
 
 3D Action RPG for Mobile with Unity - Complete game systems with 30+ monsters, 10+ bosses, complete game systems
 
-### 🎮 게임 특징
-- **3D 액션 RPG**: 실시간 전투 시스템
-- **30+ 몬스터**: 다양한 적 타입과 AI 패턴
-- **10+ 보스**: 드래곤, 골램, 오우거 등 강력한 보스들
-- **모바일 최적화**: 터치 UI 및 성능 최적화
-- **레벨 시스템**: 캐릭터 성장과 스킬 트리
-- **완전한 게임 시스템**: 인벤토리, UI, 사운드 등
+### 🎮 Game Features
+- **3D Action RPG**: Real-time combat system
+- **30+ Monsters**: Various enemy types and AI patterns
+- **10+ Bosses**: Powerful bosses such as dragons, golems, ogres, etc.
+- **Mobile Optimization**: Touch UI and performance optimization
+- **Level System**: Character growth and skill tree
+- **Complete Game Systems**: Inventory, UI, sound, etc.
 
-## 🏗️ **DuckTown 시스템 통합 완료** ⭐⭐⭐⭐⭐
+## 🏗️ **DuckTown System Integration Complete** ⭐⭐⭐⭐⭐
 
-DuckTown의 우수한 아키텍처를 성공적으로 통합했습니다!
+Successfully integrated the excellent architecture of DuckTown!
 
-### ✅ **DuckTown에서 가져온 고급 시스템들**
+### ✅ **Advanced Systems from DuckTown**
 
-#### 🧠 **고급 아키텍처 패턴**
-- **의존성 주입 (Dependency Injection)**: 시스템 간 느슨한 결합
-- **인터페이스 기반 설계**: 확장성과 테스트 용이성
-- **이벤트 드리븐 시스템**: 모듈 간 decoupled 통신
-- **데이터 드리븐 설계**: ScriptableObject 기반 설정
+#### 🧠 **Advanced Architecture Patterns**
+- **Dependency Injection**: Loose coupling between systems
+- **Interface-based Design**: Extensibility and testability
+- **Event-Driven System**: Decoupled communication between modules
+- **Data-Driven Design**: ScriptableObject-based configuration
 
-#### 💰 **골드 시스템** (`IGoldSystem`)
-- 이벤트 기반 골드 변경 알림
-- 안전한 지출/획득 메커니즘
-- UI와 자동 동기화
+#### 💰 **Gold System** (`IGoldSystem`)
+- Event-based gold change notifications
+- Secure spending/earning mechanisms
+- Automatic synchronization with UI
 
-#### 🧺 **인벤토리 시스템 V2** (`IInventorySystemV2`)
-- 스택 기반 아이템 관리
-- 드래그&드롭 지원 준비
-- 상점 시스템과 완벽 연동
+#### 🧺 **Inventory System V2** (`IInventorySystemV2`)
+- Stack-based item management
+- Drag & drop support preparation
+- Seamless integration with the shop system
 
-#### 🛒 **상점 시스템** (`IShopSystem3`)
-- ScriptableObject 기반 상품 데이터
-- 골드 시스템과 자동 연동
-- 확장 가능한 상점 아이템 설정
+#### 🛒 **Shop System** (`IShopSystem3`)
+- ScriptableObject-based product data
+- Automatic integration with the gold system
+- Extensible shop item configurations
 
-#### 🔥 **스킬 시스템** (`SkillData3`)
-- 추상 클래스 기반 스킬 설계
-- 쿨다운 관리 시스템
-- 데이터 드리븐 스킬 생성
+#### 🔥 **Skill System** (`SkillData3`)
+- Abstract class-based skill design
+- Cooldown management system
+- Data-driven skill creation
 
-#### 🎯 **상호작용 시스템**
-- 아이템 픽업 자동화
-- 의존성 주입으로 시스템 연결
+#### 🎯 **Interaction System**
+- Automated item pickup
+- Systems connected via dependency injection
 
-### 🛠️ 개발 진행 상황
+### 🛠️ Development Progress
 
-#### ✅ 완료된 기능들
-1. **기본 액션 RPG 시스템**: 플레이어, 적, 전투
-2. **DuckTown 고급 시스템**: 골드, 인벤토리, 상점, 스킬
-3. **아키텍처 통합**: 의존성 주입 패턴 적용
-4. **이벤트 기반 UI**: 시스템 변경 시 자동 UI 업데이트
+#### ✅ Completed Features
+1. **Basic Action RPG System**: Player, enemies, combat
+2. **DuckTown Advanced Systems**: Gold, inventory, shop, skills
+3. **Architecture Integration**: Dependency injection pattern applied
+4. **Event-driven UI**: Automatic UI updates upon system changes
 
-#### 🔄 다음 단계 (향후 채팅에서 고도화)
-1. **퀘스트 시스템**: DuckTown 아키텍처 기반으로 추가 예정
-2. **몬스터 다양화**: 30종의 개별 특성과 패턴
-3. **보스 시스템**: 10종 보스의 고유 패턴과 페이즈
-4. **상태머신 시스템**: DuckTown의 고급 상태 관리
-5. **VFX 시스템**: 오브젝트 풀링 기반 이펙트
-6. **모바일 UI**: 터치 컨트롤과 최적화
-7. **사운드 시스템**: BGM, 효과음, 음성
+#### 🔄 Next Steps (To be enhanced in future chat sessions)
+1. **Quest System**: To be added based on DuckTown architecture
+2. **Monster Variety**: 30 types with unique characteristics and patterns
+3. **Boss System**: 10 boss types with unique patterns and phases
+4. **State Machine System**: DuckTown's advanced state management
+5. **VFX System**: Object pooling-based effects
+6. **Mobile UI**: Touch controls and optimization
+7. **Sound System**: BGM, sound effects, voiceovers
 
-### 📁 프로젝트 구조
+### 📁 Project Structure
 ```
 Assets/ActionRPG/
 ├── Scripts/
-│   ├── Managers/           # 기본 게임 매니저
-│   ├── Player/            # 플레이어 시스템
-│   ├── Enemy/             # 적 AI 시스템
-│   ├── UI/                # UI 시스템
-│   └── DuckTown/          # 🆕 DuckTown 고급 시스템들
+│   ├── Managers/           # Basic game manager
+│   ├── Player/            # Player system
+│   ├── Enemy/             # Enemy AI system
+│   ├── UI/                # UI system
+│   └── DuckTown/          # 🆕 DuckTown advanced systems
 │       ├── Core/          # GameManager, ItemData
-│       ├── Gold/          # 골드 시스템
-│       ├── Inventory/     # 인벤토리 V2
-│       ├── Shop/          # 상점 시스템
-│       ├── Skills/        # 스킬 시스템
-│       ├── Interaction/   # 상호작용 시스템
-│       ├── Interfaces/    # 인터페이스들
-│       └── UI/            # DuckTown UI 컴포넌트
+│       ├── Gold/          # Gold system
+│       ├── Inventory/     # Inventory V2
+│       ├── Shop/          # Shop system
+│       ├── Skills/        # Skill system
+│       ├── Interaction/   # Interaction system
+│       ├── Interfaces/    # Interfaces
+│       └── UI/            # DuckTown UI components
 └── Prefabs/
 ```
 
-### 🎯 현재 씬 구성
-- **GameManager**: 기본 게임 상태 관리
-- **DuckTownGameManager**: 🆕 고급 의존성 주입 매니저
-- **Player**: 캡슐 형태의 플레이어 (모든 플레이어 컴포넌트 포함)
-- **Ground**: 10x10 크기의 기본 지형
-- **Enemy1, Enemy2**: 기본 큐브 형태의 적들
-- **Camera & Lighting**: 기본 카메라와 조명 설정
+### 🎯 Current Scene Setup
+- **GameManager**: Basic game state management
+- **DuckTownGameManager**: 🆕 Advanced dependency injection manager
+- **Player**: Capsule-shaped player (including all player components)
+- **Ground**: 10x10 basic ground terrain
+- **Enemy1, Enemy2**: Basic cube-shaped enemies
+- **Camera & Lighting**: Basic camera and lighting setup
 
-### 🚀 테스트 방법
-1. Unity에서 Play 버튼 클릭
-2. WASD로 이동, 스페이스로 점프
-3. 마우스 클릭으로 공격
-4. 적을 처치하여 경험치 획득
-5. 🆕 아이템 픽업으로 인벤토리 테스트
-6. 🆕 상점에서 아이템 구매 테스트
+### 🚀 How to Test
+1. Click the Play button in Unity
+2. Move with WASD, jump with Space
+3. Attack with Mouse Click
+4. Defeat enemies to gain experience points
+5. 🆕 Pick up items to test the inventory
+6. 🆕 Buy items from the shop to test the shop system
 
-### 💡 개발 철학
+### 💡 Development Philosophy
 
-이 프로젝트는 **DuckTown의 우수한 아키텍처**를 기반으로 구성되어 있어:
+This project is built on **DuckTown's excellent architecture**:
 
-- **확장성**: 새로운 몬스터, 스킬, 아이템 추가가 매우 쉬움
-- **유지보수성**: 인터페이스 기반으로 시스템 간 독립성 보장
-- **성능**: 이벤트 기반으로 불필요한 업데이트 최소화
-- **모바일 친화적**: 메모리 효율적인 설계
+- **Extensibility**: Very easy to add new monsters, skills, and items
+- **Maintainability**: Interface-based design ensures independence between systems
+- **Performance**: Event-driven design minimizes unnecessary updates
+- **Mobile Friendly**: Memory-efficient design
 
-### 🎉 **DuckTown 통합의 장점**
+### 🎉 **Advantages of DuckTown Integration**
 
-1. **퀘스트 시스템 추가 준비 완료**: 인터페이스 기반으로 쉽게 확장 가능
-2. **30종 몬스터 구현 준비**: 데이터 드리븐으로 몬스터 추가 간편
-3. **모바일 게임 출시 품질**: 업계 수준의 아키텍처 적용
-4. **팀 개발 준비**: 모듈형 설계로 협업 용이
-
----
-
-## 🚀 **다음 채팅 세션 계획**
-
-### **퀘스트 시스템 개발** (다음 세션)
-- DuckTown 아키텍처 기반 퀘스트 매니저
-- NPC 대화 시스템
-- 퀘스트 진행 추적
-- 보상 시스템과 기존 시스템 연동
-
-### **몬스터 다양화** (후속 세션들)
-- 30종 몬스터 데이터 생성
-- 각 몬스터별 고유 AI 패턴
-- 보스 10종 특별 패턴
-- 난이도 밸런싱
+1. **Quest System Ready to Integrate**: Easy to expand using interface-based design
+2. **Ready for 30+ Monsters**: Easy to add monsters using a data-driven approach
+3. **Mobile Release Quality**: Industry-standard architecture applied
+4. **Team Development Ready**: Modular design facilitates collaboration
 
 ---
-*이 게임은 Unity MCP를 통해 Claude AI와 협업하여 개발되었으며, DuckTown의 우수한 아키텍처를 통합하여 엔터프라이즈급 품질을 달성했습니다.*
+
+## 🚀 **Next Chat Session Plan**
+
+### **Quest System Development** (Next Session)
+- Quest manager based on DuckTown architecture
+- NPC dialogue system
+- Quest progress tracking
+- Integration of reward system with existing systems
+
+### **Monster Variety** (Subsequent Sessions)
+- Generate data for 30 monster types
+- Unique AI patterns for each monster
+- Special patterns for 10 boss types
+- Difficulty balancing
+
+---
+*This game was developed in collaboration with Claude AI via Unity MCP, integrating the excellent architecture of DuckTown to achieve enterprise-level quality.*
